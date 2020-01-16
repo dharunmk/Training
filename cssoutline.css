@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.box{
+			background-color: #eee;
+			outline: 3px solid red;
+			border: 3px solid lightgreen;
+			padding: 5px 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">Welcome to CTS</div>
+</body>
+</html>

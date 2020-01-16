@@ -1,0 +1,21 @@
+div {
+  padding: 60px;
+  width: 60px;
+  font-size: 3em;
+  background: pink;
+  text-align: center;
+  margin: 1%;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  font-family: 'Lato';
+}
+
+.o-hide {
+  opacity: 0;
+  transition: all ease 0.8s;
+}
+
+.o-hide:hover {
+  opacity: 1;
+}
