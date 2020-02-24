@@ -1,6 +1,6 @@
 package com.cts.Sorting;
 
-public class Bhargav implements Comparable<Bhargav>{
+public class Dharun implements Comparable<Bhargav>{
 	int number;
 	String name;
 	Bhargav(int number,String name){
@@ -14,7 +14,7 @@ public class Bhargav implements Comparable<Bhargav>{
 	}
 
 	@Override
-	public int compareTo(Bhargav o) {
+	public int compareTo(Dharun o) {
 		return o.number - this.number;
 	}
 }
