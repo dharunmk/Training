@@ -33,9 +33,9 @@ public class GetData extends HttpServlet {
 		Connection con = null;
 		PreparedStatement pre = null;
 		try {
-			String url = "jdbc:mysql://localhost:3306/Bhargav";
+			String url = "jdbc:mysql://localhost:3306/JDBC";
 			String user = "root";
-			String password = "Bhargav@123";
+			String password = "passwordsql";
 			
 			String sql = "select EmailId,Pwd from Login_cred where EmailId=? and Pwd=?";
 			
